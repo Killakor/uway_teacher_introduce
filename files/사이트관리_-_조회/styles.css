@@ -1121,6 +1121,7 @@
   font-family:'Freesentation 4', sans-serif;
   font-weight:400;
   font-style:normal;
+  font-size:12px;
 }
 .u1239 .text {
   position:absolute;
@@ -1141,7 +1142,7 @@
   left:0px;
   top:0px;
   width:50px;
-  height:16px;
+  height:14px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
   border:none;
@@ -1149,6 +1150,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
+  font-size:12px;
 }
 .u1240 {
   border-width:0px;
@@ -1156,8 +1158,9 @@
   left:829px;
   top:12px;
   width:50px;
-  height:16px;
+  height:14px;
   display:flex;
+  font-size:12px;
 }
 .u1240 .text {
   position:absolute;
@@ -1198,6 +1201,7 @@
   font-family:'Freesentation 4', sans-serif;
   font-weight:400;
   font-style:normal;
+  font-size:12px;
 }
 .u1242 .text {
   position:absolute;
@@ -1218,7 +1222,7 @@
   left:0px;
   top:0px;
   width:50px;
-  height:16px;
+  height:14px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
   border:none;
@@ -1226,6 +1230,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
+  font-size:12px;
 }
 .u1243 {
   border-width:0px;
@@ -1233,8 +1238,9 @@
   left:754px;
   top:12px;
   width:50px;
-  height:16px;
+  height:14px;
   display:flex;
+  font-size:12px;
 }
 .u1243 .text {
   position:absolute;
@@ -1275,6 +1281,7 @@
   font-family:'Freesentation 4', sans-serif;
   font-weight:400;
   font-style:normal;
+  font-size:12px;
 }
 .u1245 .text {
   position:absolute;
@@ -1295,7 +1302,7 @@
   left:0px;
   top:0px;
   width:50px;
-  height:16px;
+  height:14px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
   border:none;
@@ -1303,6 +1310,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
+  font-size:12px;
 }
 .u1246 {
   border-width:0px;
@@ -1310,8 +1318,9 @@
   left:679px;
   top:12px;
   width:50px;
-  height:16px;
+  height:14px;
   display:flex;
+  font-size:12px;
 }
 .u1246 .text {
   position:absolute;
@@ -1352,6 +1361,7 @@
   font-family:'Freesentation 4', sans-serif;
   font-weight:400;
   font-style:normal;
+  font-size:12px;
 }
 .u1248 .text {
   position:absolute;
@@ -1372,7 +1382,7 @@
   left:0px;
   top:0px;
   width:50px;
-  height:16px;
+  height:14px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
   border:none;
@@ -1380,6 +1390,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
+  font-size:12px;
 }
 .u1249 {
   border-width:0px;
@@ -1387,8 +1398,9 @@
   left:604px;
   top:12px;
   width:50px;
-  height:16px;
+  height:14px;
   display:flex;
+  font-size:12px;
 }
 .u1249 .text {
   position:absolute;
@@ -6475,7 +6487,7 @@ body.a {  background-color:rgba(255, 255, 255, 1);
   left:0px;
   top:0px;
   width:50px;
-  height:16px;
+  height:14px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
   border:none;
@@ -6483,6 +6495,7 @@ body.a {  background-color:rgba(255, 255, 255, 1);
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
+  font-size:12px;
 }
 .u1240.a {
 }
@@ -6512,7 +6525,7 @@ body.a {  background-color:rgba(255, 255, 255, 1);
   left:0px;
   top:0px;
   width:50px;
-  height:16px;
+  height:14px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
   border:none;
@@ -6520,6 +6533,7 @@ body.a {  background-color:rgba(255, 255, 255, 1);
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
+  font-size:12px;
 }
 .u1243.a {
 }
@@ -6549,7 +6563,7 @@ body.a {  background-color:rgba(255, 255, 255, 1);
   left:0px;
   top:0px;
   width:50px;
-  height:16px;
+  height:14px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
   border:none;
@@ -6557,6 +6571,7 @@ body.a {  background-color:rgba(255, 255, 255, 1);
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
+  font-size:12px;
 }
 .u1246.a {
 }
@@ -6586,7 +6601,7 @@ body.a {  background-color:rgba(255, 255, 255, 1);
   left:0px;
   top:0px;
   width:50px;
-  height:16px;
+  height:14px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
   border:none;
@@ -6594,6 +6609,7 @@ body.a {  background-color:rgba(255, 255, 255, 1);
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
+  font-size:12px;
 }
 .u1249.a {
 }
