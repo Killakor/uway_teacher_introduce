@@ -1,0 +1,2027 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>선생님관리 - 등록/수정</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/선생님관리_-_등록_수정/styles.css" type="text/css" rel="stylesheet"/>
+    <style type="text/css">
+@font-face {
+    font-family: 'Freesentation 1';
+    src: url('./fonts/foFreesentation-1Thin.woff2') format('woff2'),
+        url('./fonts/Freesentation-1Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+    </style>
+    <style type="text/css">
+@font-face {
+    font-family: 'Freesentation 3';
+    src: url('./fonts/Freesentation-3Light.woff2') format('woff2'),
+        url('./fonts/Freesentation-3Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+    </style>
+    <style type="text/css">
+@font-face {
+    font-family: 'Freesentation 6';
+    src: url('./fonts/Freesentation-6SemiBold.woff2') format('woff2'),
+        url('./fonts/Freesentation-6SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+    </style>
+    <style type="text/css">
+@font-face {
+    font-family: 'Freesentation 7';
+    src: url('./fonts/Freesentation-7Bold.woff2') format('woff2'),
+        url('./fonts/Freesentation-7Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+    </style>
+    <style type="text/css">
+@font-face {
+    font-family: 'Freesentation 8';
+    src: url('./fonts/Freesentation-8ExtraBold.woff2') format('woff2'),
+        url('./fonts/Freesentation-8ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+    </style>
+    <style type="text/css">
+@font-face {
+    font-family: 'Freesentation 9';
+    src: url('./fonts/Freesentation-9Black.woff2') format('woff2'),
+        url('./fonts/Freesentation-9Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+    </style>
+    <style type="text/css">
+@font-face {
+    font-family: 'Freesentation 2';
+    src: url('./fonts/Freesentation-2ExtraLight.woff2') format('woff2'),
+        url('./fonts/Freesentation-2ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+    </style>
+    <style type="text/css">
+@font-face {
+    font-family: 'Freesentation 4';
+    src: url('./fonts/Freesentation-4Regular.woff2') format('woff2'),
+        url('./fonts/Freesentation-4Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+    </style>
+    <style type="text/css">
+@font-face {
+    font-family: 'Freesentation 5';
+    src: url('./fonts/Freesentation-5Medium.woff2') format('woff2'),
+        url('./fonts/Freesentation-5Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+    </style>
+    <script src="resources/scripts/jquery-3.2.1.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script src="resources/scripts/axure/jquery.nicescroll.min.js"></script>
+    <script src="data/document.js"></script>
+    <script src="files/선생님관리_-_등록_수정/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (Dynamic Panel) -->
+      <div id="u1040" class="ax_default">
+        <div id="u1040_state0" class="panel_state" data-label="State1" style="">
+          <div id="u1040_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1041" class="ax_default shape">
+              <div id="u1041_div" class=""></div>
+              <div id="u1041_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1042" class="ax_default paragraph">
+              <div id="u1042_div" class=""></div>
+              <div id="u1042_text" class="text ">
+                <p><span>입시매니저 &gt; 선생님소개 &gt; 선생님관리 &gt; 등록</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1043" class="ax_default primary_button">
+              <div id="u1043_div" class=""></div>
+              <div id="u1043_text" class="text ">
+                <p><span>저장</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Dynamic Panel) -->
+      <div id="u1044" class="ax_default">
+        <div id="u1044_state0" class="panel_state" data-label="State1" style="">
+          <div id="u1044_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1045" class="ax_default shape">
+              <div id="u1045_div" class=""></div>
+              <div id="u1045_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Group) -->
+            <div id="u1046" class="ax_default" data-left="35" data-top="25" data-width="940" data-height="550">
+
+              <!-- Unnamed (Rectangle) -->
+              <div id="u1047" class="ax_default shape">
+                <div id="u1047_div" class=""></div>
+                <div id="u1047_text" class="text " style="display:none; visibility: hidden">
+                  <p></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Rectangle) -->
+              <div id="u1048" class="ax_default heading_4">
+                <div id="u1048_div" class=""></div>
+                <div id="u1048_text" class="text ">
+                  <p><span style="color:#D9001B;">*&nbsp; </span><span>상태</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Rectangle) -->
+              <div id="u1049" class="ax_default heading_4">
+                <div id="u1049_div" class=""></div>
+                <div id="u1049_text" class="text ">
+                  <p><span style="color:#D9001B;">*&nbsp; </span><span>아이디</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Rectangle) -->
+              <div id="u1050" class="ax_default heading_4">
+                <div id="u1050_div" class=""></div>
+                <div id="u1050_text" class="text ">
+                  <p><span>선생님 이름</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Rectangle) -->
+              <div id="u1051" class="ax_default heading_4">
+                <div id="u1051_div" class=""></div>
+                <div id="u1051_text" class="text ">
+                  <p><span>선생님 연락처</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Rectangle) -->
+              <div id="u1052" class="ax_default heading_4">
+                <div id="u1052_div" class=""></div>
+                <div id="u1052_text" class="text ">
+                  <p><span>선생님 소개</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Rectangle) -->
+              <div id="u1053" class="ax_default heading_4">
+                <div id="u1053_div" class=""></div>
+                <div id="u1053_text" class="text ">
+                  <p><span>선생님 이미지</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Rectangle) -->
+              <div id="u1054" class="ax_default heading_4">
+                <div id="u1054_div" class=""></div>
+                <div id="u1054_text" class="text ">
+                  <p><span style="color:#D9001B;">*&nbsp; </span><span>자격증 취득일</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Rectangle) -->
+              <div id="u1055" class="ax_default heading_4">
+                <div id="u1055_div" class=""></div>
+                <div id="u1055_text" class="text ">
+                  <p><span style="color:#D9001B;">*&nbsp; </span><span>자격증 보유</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Rectangle) -->
+              <div id="u1056" class="ax_default heading_4">
+                <div id="u1056_div" class=""></div>
+                <div id="u1056_text" class="text ">
+                  <p><span>✅&nbsp; 기본 정보</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Group) -->
+              <div id="u1057" class="ax_default" data-left="186" data-top="95" data-width="119" data-height="35">
+
+                <!-- 사용버튼 (Rectangle) -->
+                <div id="u1058" class="ax_default box_1 selected" data-label="사용버튼">
+                  <div id="u1058_div" class="selected"></div>
+                  <div id="u1058_text" class="text ">
+                    <p><span>사용</span></p>
+                  </div>
+                </div>
+
+                <!-- 미사용버튼 (Rectangle) -->
+                <div id="u1059" class="ax_default box_1" data-label="미사용버튼">
+                  <div id="u1059_div" class=""></div>
+                  <div id="u1059_text" class="text ">
+                    <p><span>미사용</span></p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 아이디 (Text Field) -->
+              <div id="u1060" class="ax_default text_field" data-label="아이디">
+                <div id="u1060_div" class=""></div>
+                <input id="u1060_input" type="text" value="" class="u1060_input"/>
+              </div>
+
+              <!-- 이름 (Text Field) -->
+              <div id="u1061" class="ax_default text_field disabled" data-label="이름">
+                <div id="u1061_div" class="disabled"></div>
+                <input id="u1061_input" type="text" value="" class="u1061_input" disabled/>
+              </div>
+
+              <!-- 연락처2 (Text Field) -->
+              <div id="u1062" class="ax_default text_field disabled" data-label="연락처2">
+                <div id="u1062_div" class="disabled"></div>
+                <input id="u1062_input" type="number" value="" class="u1062_input" disabled maxlength="4"/>
+              </div>
+
+              <!-- 이메일1 (Text Field) -->
+              <div id="u1063" class="ax_default text_field disabled" data-label="이메일1">
+                <div id="u1063_div" class="disabled"></div>
+                <input id="u1063_input" type="text" value="" class="u1063_input" disabled/>
+              </div>
+
+              <!-- 연락처3 (Text Field) -->
+              <div id="u1064" class="ax_default text_field disabled" data-label="연락처3">
+                <div id="u1064_div" class="disabled"></div>
+                <input id="u1064_input" type="number" value="" class="u1064_input" disabled maxlength="4"/>
+              </div>
+
+              <!-- Unnamed (Text Field) -->
+              <div id="u1065" class="ax_default text_field">
+                <div id="u1065_div" class=""></div>
+                <input id="u1065_input" type="text" value="" class="u1065_input" maxlength="15"/>
+              </div>
+
+              <!-- 연락처1 (Droplist) -->
+              <div id="u1066" class="ax_default text_field disabled" data-label="연락처1">
+                <div id="u1066_div" class="disabled"></div>
+                <select id="u1066_input" class="u1066_input" disabled>
+                  <option class="u1066_input_option" selected value=" ">&nbsp;</option>
+                  <option class="u1066_input_option" value="010">010</option>
+                  <option class="u1066_input_option" value="02">02</option>
+                  <option class="u1066_input_option" value="031">031</option>
+                  <option class="u1066_input_option" value="032">032</option>
+                  <option class="u1066_input_option" value="051">051</option>
+                  <option class="u1066_input_option" value="052">052</option>
+                </select>
+              </div>
+
+              <!-- 이메일2 (Droplist) -->
+              <div id="u1067" class="ax_default text_field disabled" data-label="이메일2">
+                <div id="u1067_div" class="disabled"></div>
+                <select id="u1067_input" class="u1067_input" disabled>
+                  <option class="u1067_input_option" selected value=" ">&nbsp;</option>
+                  <option class="u1067_input_option" value="uway.com">uway.com</option>
+                  <option class="u1067_input_option" value="naver.com">naver.com</option>
+                  <option class="u1067_input_option" value="kakao.com">kakao.com</option>
+                  <option class="u1067_input_option" value="daum.net">daum.net</option>
+                  <option class="u1067_input_option" value="nate.com">nate.com</option>
+                </select>
+              </div>
+
+              <!-- 중복확인버튼 (Rectangle) -->
+              <div id="u1068" class="ax_default box_1 selected" data-label="중복확인버튼">
+                <div id="u1068_div" class="selected"></div>
+                <div id="u1068_text" class="text ">
+                  <p><span>중복확인</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Rectangle) -->
+              <div id="u1069" class="ax_default heading_4">
+                <div id="u1069_div" class=""></div>
+                <div id="u1069_text" class="text ">
+                  <p><span>선생님 이메일</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Rectangle) -->
+              <div id="u1070" class="ax_default paragraph">
+                <div id="u1070_div" class=""></div>
+                <div id="u1070_text" class="text ">
+                  <p><span>@</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Text Field) -->
+              <div id="u1071" class="ax_default text_field">
+                <div id="u1071_div" class=""></div>
+                <input id="u1071_input" type="file" value="" class="u1071_input"/>
+              </div>
+
+              <!-- Column Title (Rectangle) -->
+              <div id="u1072" class="ax_default shape6" data-label="Column Title">
+                <div id="u1072_div" class=""></div>
+                <div id="u1072_text" class="text ">
+                  <p><span>※ 업로드 가능 파일 규격&nbsp; &nbsp;&nbsp; * 사이즈:&nbsp; 600x800px 이상 /&nbsp; *&nbsp; 확장자: png,jpg, jpeg, gif /&nbsp;&nbsp; * 크기: 5MB 미만</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Rectangle) -->
+              <div id="u1073" class="ax_default box_1">
+                <div id="u1073_div" class=""></div>
+                <div id="u1073_text" class="text " style="display:none; visibility: hidden">
+                  <p></p>
+                </div>
+              </div>
+
+              <!-- Multiselect (Group) -->
+              <div id="u1074" class="ax_default" data-label="Multiselect" data-left="186" data-top="460" data-width="300" data-height="35">
+
+                <!-- List (Dynamic Panel) -->
+                <div id="u1075" class="ax_default ax_default_hidden" data-label="List" style="display:none; visibility: hidden">
+                  <div id="u1075_state0" class="panel_state" data-label="State1" style="">
+                    <div id="u1075_state0_content" class="panel_state_content">
+
+                      <!-- Unnamed (Checkbox) -->
+                      <div id="u1076" class="ax_default checkbox">
+                        <label id="u1076_input_label" for="u1076_input" style="position: absolute; left: 0px;">
+                          <img id="u1076_img" class="img " src="images/선생님관리_-_등록_수정/u1076.svg"/>
+                          <div id="u1076_text" class="text ">
+                            <p><span>2024</span></p>
+                          </div>
+                        </label>
+                        <input id="u1076_input" type="checkbox" value="checkbox"/>
+                      </div>
+
+                      <!-- Unnamed (Checkbox) -->
+                      <div id="u1077" class="ax_default checkbox">
+                        <label id="u1077_input_label" for="u1077_input" style="position: absolute; left: 0px;">
+                          <img id="u1077_img" class="img " src="images/선생님관리_-_등록_수정/u1077.svg"/>
+                          <div id="u1077_text" class="text ">
+                            <p><span>2025</span></p>
+                          </div>
+                        </label>
+                        <input id="u1077_input" type="checkbox" value="checkbox"/>
+                      </div>
+
+                      <!-- Unnamed (Checkbox) -->
+                      <div id="u1078" class="ax_default checkbox">
+                        <label id="u1078_input_label" for="u1078_input" style="position: absolute; left: 0px;">
+                          <img id="u1078_img" class="img " src="images/선생님관리_-_등록_수정/u1078.svg"/>
+                          <div id="u1078_text" class="text ">
+                            <p><span>2026</span></p>
+                          </div>
+                        </label>
+                        <input id="u1078_input" type="checkbox" value="checkbox"/>
+                      </div>
+
+                      <!-- Unnamed (Checkbox) -->
+                      <div id="u1079" class="ax_default checkbox">
+                        <label id="u1079_input_label" for="u1079_input" style="position: absolute; left: 0px;">
+                          <img id="u1079_img" class="img " src="images/선생님관리_-_등록_수정/u1079.svg"/>
+                          <div id="u1079_text" class="text ">
+                            <p><span>2027</span></p>
+                          </div>
+                        </label>
+                        <input id="u1079_input" type="checkbox" value="checkbox"/>
+                      </div>
+
+                      <!-- Unnamed (Checkbox) -->
+                      <div id="u1080" class="ax_default checkbox">
+                        <label id="u1080_input_label" for="u1080_input" style="position: absolute; left: 0px;">
+                          <img id="u1080_img" class="img " src="images/선생님관리_-_등록_수정/u1080.svg"/>
+                          <div id="u1080_text" class="text ">
+                            <p><span>2028</span></p>
+                          </div>
+                        </label>
+                        <input id="u1080_input" type="checkbox" value="checkbox"/>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Input Field (Group) -->
+                <div id="u1081" class="ax_default" data-label="Input Field" data-left="186" data-top="460" data-width="300" data-height="35">
+
+                  <!-- My Repeater (Repeater) -->
+                  <div id="u1082" class="ax_default" data-label="My Repeater">
+                    <script id="u1082_script" type="axure-repeater-template" data-label="My Repeater">
+
+                      <!-- Pill (Rectangle) -->
+                      <div id="u1083" class="ax_default box_1 u1083" data-label="Pill">
+                        <div id="u1083_div" class="u1083_div"></div>
+                        <div id="u1083_text" class="text u1083_text" style="display:none; visibility: hidden">
+                          <p></p>
+                        </div>
+                      </div>
+                    </script>
+                  </div>
+
+                  <!-- Input (Rectangle) -->
+                  <div id="u1084" class="ax_default box_1" data-label="Input">
+                    <div id="u1084_div" class=""></div>
+                    <div id="u1084_text" class="text " style="display:none; visibility: hidden">
+                      <p></p>
+                    </div>
+                  </div>
+
+                  <!-- chevron small down (Shape) -->
+                  <div id="u1085" class="ax_default shape2" data-label="chevron small down">
+                    <img id="u1085_img" class="img " src="images/선생님관리_-_등록_수정/chevron_small_down_u1085.svg"/>
+                    <div id="u1085_text" class="text " style="display:none; visibility: hidden">
+                      <p></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Unnamed (Group) -->
+            <div id="u1086" class="ax_default" data-left="35" data-top="583" data-width="940" data-height="261">
+
+              <!-- Unnamed (Group) -->
+              <div id="u1087" class="ax_default" data-left="35" data-top="583" data-width="940" data-height="261">
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u1088" class="ax_default shape">
+                  <div id="u1088_div" class=""></div>
+                  <div id="u1088_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u1089" class="ax_default heading_4">
+                  <div id="u1089_div" class=""></div>
+                  <div id="u1089_text" class="text ">
+                    <p><span>👩‍🏫&nbsp; 프로필 정보</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Text Area) -->
+                <div id="u1090" class="ax_default text_area">
+                  <div id="u1090_div" class=""></div>
+                  <textarea id="u1090_input" class="u1090_input"></textarea>
+                </div>
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u1091" class="ax_default heading_4">
+                  <div id="u1091_div" class=""></div>
+                  <div id="u1091_text" class="text ">
+                    <p><span>학력</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Text Area) -->
+                <div id="u1092" class="ax_default text_area">
+                  <div id="u1092_div" class=""></div>
+                  <textarea id="u1092_input" class="u1092_input"></textarea>
+                </div>
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u1093" class="ax_default heading_4">
+                  <div id="u1093_div" class=""></div>
+                  <div id="u1093_text" class="text ">
+                    <p><span>연혁</span></p>
+                  </div>
+                </div>
+
+                <!-- Column Title (Rectangle) -->
+                <div id="u1094" class="ax_default shape6" data-label="Column Title">
+                  <div id="u1094_div" class=""></div>
+                  <div id="u1094_text" class="text ">
+                    <p><span>※ 연혁 최상단에 &quot;現 유웨이 대입전문 컨설턴트&quot;항목은 자동 표기 됩니다.</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Unnamed (Checkbox) -->
+            <div id="u1095" class="ax_default checkbox">
+              <label id="u1095_input_label" for="u1095_input" style="position: absolute; left: 0px;">
+                <img id="u1095_img" class="img " src="images/선생님관리_-_등록_수정/u1095.svg"/>
+                <div id="u1095_text" class="text ">
+                  <p><span>1급</span></p>
+                </div>
+              </label>
+              <input id="u1095_input" type="checkbox" value="checkbox"/>
+            </div>
+
+            <!-- Unnamed (Checkbox) -->
+            <div id="u1096" class="ax_default checkbox">
+              <label id="u1096_input_label" for="u1096_input" style="position: absolute; left: 0px;">
+                <img id="u1096_img" class="img " src="images/선생님관리_-_등록_수정/u1096.svg"/>
+                <div id="u1096_text" class="text ">
+                  <p><span>2급</span></p>
+                </div>
+              </label>
+              <input id="u1096_input" type="checkbox" value="checkbox"/>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Dynamic Panel) -->
+      <div id="u1097" class="ax_default">
+        <div id="u1097_state0" class="panel_state" data-label="State1" style="">
+          <div id="u1097_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1098" class="ax_default shape">
+              <div id="u1098_div" class=""></div>
+              <div id="u1098_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Group) -->
+            <div id="u1099" class="ax_default" data-left="9" data-top="10" data-width="166" data-height="54">
+
+              <!-- Unnamed (Image) -->
+              <div id="u1100" class="ax_default image">
+                <img id="u1100_img" class="img " src="images/선생님_소개_-_목록/u18.png"/>
+                <div id="u1100_text" class="text " style="display:none; visibility: hidden">
+                  <p></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Rectangle) -->
+              <div id="u1101" class="ax_default paragraph">
+                <div id="u1101_div" class=""></div>
+                <div id="u1101_text" class="text ">
+                  <p><span>유웨이닷컴 관리자</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Rectangle) -->
+              <div id="u1102" class="ax_default paragraph">
+                <div id="u1102_div" class=""></div>
+                <div id="u1102_text" class="text ">
+                  <p><span>[비밀번호 변경]</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Rectangle) -->
+              <div id="u1103" class="ax_default paragraph">
+                <div id="u1103_div" class=""></div>
+                <div id="u1103_text" class="text ">
+                  <p><span>[로그아웃]</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 학원 목차 레이어팝업 (Dynamic Panel) -->
+      <div id="u1104" class="ax_default ax_default_hidden" data-label="학원 목차 레이어팝업" style="display:none; visibility: hidden">
+        <div id="u1104_state0" class="panel_state" data-label="목차" style="">
+          <div id="u1104_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (Group) -->
+            <div id="u1105" class="ax_default" data-left="0" data-top="0" data-width="600" data-height="680">
+
+              <!-- Unnamed (Group) -->
+              <div id="u1106" class="ax_default" data-left="0" data-top="0" data-width="600" data-height="680">
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u1107" class="ax_default box_1">
+                  <img id="u1107_img" class="img " src="images/선생님관리_-_등록_수정/u1107.svg"/>
+                  <div id="u1107_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u1108" class="ax_default heading_5">
+                  <div id="u1108_div" class=""></div>
+                  <div id="u1108_text" class="text ">
+                    <p><span>학원 목차</span></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Shape) -->
+                <div id="u1109" class="ax_default shape4">
+                  <img id="u1109_img" class="img " src="images/선생님관리_-_등록_수정/u1109.svg"/>
+                  <div id="u1109_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                  </div>
+                </div>
+
+                <!-- Multi-combo Box_ActiveButton_Preselected Items_cozy (Group) -->
+                <div id="u1110" class="ax_default" data-label="Multi-combo Box_ActiveButton_Preselected Items_cozy" data-left="0" data-top="0" data-width="0" data-height="0">
+
+                  <!-- 03_CONTROLS/MULTI-COMBO BOX/cozy/WITH PRESELECTED ITEMS/ Regular (Group) -->
+                  <div id="u1111" class="ax_default" data-label="03_CONTROLS/MULTI-COMBO BOX/cozy/WITH PRESELECTED ITEMS/ Regular" data-left="0" data-top="0" data-width="0" data-height="0">
+                  </div>
+                </div>
+
+                <!-- Unnamed (Line) -->
+                <div id="u1112" class="ax_default line">
+                  <img id="u1112_img" class="img " src="images/선생님관리_-_등록_수정/u1112.svg"/>
+                  <div id="u1112_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Line) -->
+                <div id="u1113" class="ax_default line">
+                  <img id="u1113_img" class="img " src="images/선생님관리_-_등록_수정/u1113.svg"/>
+                  <div id="u1113_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Line) -->
+                <div id="u1114" class="ax_default line">
+                  <img id="u1114_img" class="img " src="images/선생님관리_-_등록_수정/u1114.svg"/>
+                  <div id="u1114_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pagination (Group) -->
+            <div id="u1115" class="ax_default" data-label="Pagination" data-left="199" data-top="627" data-width="199" data-height="34">
+
+              <!-- Unnamed (Rectangle) -->
+              <div id="u1116" class="ax_default box_3" selectiongroup="Pagination">
+                <div id="u1116_div" class=""></div>
+                <div id="u1116_text" class="text ">
+                  <p><span>이전</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Rectangle) -->
+              <div id="u1117" class="ax_default box_3" selectiongroup="My Pagination Group">
+                <div id="u1117_div" class=""></div>
+                <div id="u1117_text" class="text ">
+                  <p><span>1</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Rectangle) -->
+              <div id="u1118" class="ax_default box_3 selected" selectiongroup="My Pagination Group">
+                <div id="u1118_div" class="selected"></div>
+                <div id="u1118_text" class="text ">
+                  <p><span>2</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Rectangle) -->
+              <div id="u1119" class="ax_default box_3" selectiongroup="My Pagination Group">
+                <div id="u1119_div" class=""></div>
+                <div id="u1119_text" class="text ">
+                  <p><span>3</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Rectangle) -->
+              <div id="u1120" class="ax_default box_3" selectiongroup="Pagination">
+                <div id="u1120_div" class=""></div>
+                <div id="u1120_text" class="text ">
+                  <p><span>다음</span></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Unnamed (Droplist) -->
+            <div id="u1121" class="ax_default text_area">
+              <div id="u1121_div" class=""></div>
+              <select id="u1121_input" class="u1121_input">
+                <option class="u1121_input_option" selected value="전체">전체</option>
+                <option class="u1121_input_option" value="학원명">학원명</option>
+                <option class="u1121_input_option" value="지역">지역</option>
+                <option class="u1121_input_option" value="주소">주소</option>
+                <option class="u1121_input_option" value="학원 연락처">학원 연락처</option>
+              </select>
+            </div>
+
+            <!-- 입력값 (Text Field) -->
+            <div id="u1122" class="ax_default text_area" data-label="입력값">
+              <div id="u1122_div" class=""></div>
+              <input id="u1122_input" type="text" value="" class="u1122_input"/>
+            </div>
+
+            <!-- Unnamed (Shape) -->
+            <div id="u1123" class="ax_default icon">
+              <img id="u1123_img" class="img " src="images/학원관리_-_조회_등록_수정/u904.svg"/>
+              <div id="u1123_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Dynamic Panel) -->
+            <div id="u1124" class="ax_default">
+              <div id="u1124_state0" class="panel_state" data-label="State1" style="">
+                <div id="u1124_state0_content" class="panel_state_content">
+
+                  <!-- Unnamed (Dynamic Panel) -->
+                  <div id="u1125" class="ax_default">
+                    <div id="u1125_state0" class="panel_state" data-label="State1" style="">
+                      <div id="u1125_state0_content" class="panel_state_content">
+
+                        <!-- Unnamed (Dynamic Panel) -->
+                        <div id="u1126" class="ax_default">
+                          <div id="u1126_state0" class="panel_state" data-label="State1" style="">
+                            <div id="u1126_state0_content" class="panel_state_content">
+
+                              <!-- Unnamed (Group) -->
+                              <div id="u1127" class="ax_default" data-left="0" data-top="0" data-width="570" data-height="357">
+
+                                <!-- Repeater (Repeater) -->
+                                <div id="u1128" class="ax_default" data-label="Repeater">
+                                  <script id="u1128_script" type="axure-repeater-template" data-label="Repeater">
+
+                                    <!-- Unnamed (Group) -->
+                                    <div id="u1129" class="ax_default u1129" data-left="0" data-top="0" data-width="570" data-height="40">
+
+                                      <!-- Item line (Shape) -->
+                                      <div id="u1130" class="ax_default shape6 u1130" data-label="Item line">
+                                        <img id="u1130_img" class="img u1130_img" src="images/학원관리_-_조회_등록_수정/item_line_u881.svg"/>
+                                        <div id="u1130_text" class="text u1130_text" style="display:none; visibility: hidden">
+                                          <p></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- 학원연락처 (Rectangle) -->
+                                      <div id="u1131" class="ax_default shape6 u1131" data-label="학원연락처">
+                                        <div id="u1131_div" class="u1131_div"></div>
+                                        <div id="u1131_text" class="text u1131_text" style="display:none; visibility: hidden">
+                                          <p></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- 지역 (Rectangle) -->
+                                      <div id="u1132" class="ax_default shape6 u1132" data-label="지역">
+                                        <div id="u1132_div" class="u1132_div"></div>
+                                        <div id="u1132_text" class="text u1132_text" style="display:none; visibility: hidden">
+                                          <p></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- 학원명 (Rectangle) -->
+                                      <div id="u1133" class="ax_default shape6 u1133" data-label="학원명">
+                                        <div id="u1133_div" class="u1133_div"></div>
+                                        <div id="u1133_text" class="text u1133_text" style="display:none; visibility: hidden">
+                                          <p></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- 주소1 (Rectangle) -->
+                                      <div id="u1134" class="ax_default shape6 u1134" data-label="주소1">
+                                        <div id="u1134_div" class="u1134_div"></div>
+                                        <div id="u1134_text" class="text u1134_text" style="display:none; visibility: hidden">
+                                          <p></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- No. (Rectangle) -->
+                                      <div id="u1135" class="ax_default shape6 u1135" data-label="No.">
+                                        <div id="u1135_div" class="u1135_div"></div>
+                                        <div id="u1135_text" class="text u1135_text" style="display:none; visibility: hidden">
+                                          <p></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- 주소2 (Rectangle) -->
+                                      <div id="u1136" class="ax_default shape6 u1136" data-label="주소2">
+                                        <div id="u1136_div" class="u1136_div"></div>
+                                        <div id="u1136_text" class="text u1136_text" style="display:none; visibility: hidden">
+                                          <p></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- 03_CONTROLS/CHECKBOX/02_COMPACT/CHECKBOX ONLY/UNSELECTED/Regular (Group) -->
+                                      <div id="u1137" class="ax_default u1137" data-label="03_CONTROLS/CHECKBOX/02_COMPACT/CHECKBOX ONLY/UNSELECTED/Regular" data-left="14" data-top="12" data-width="16" data-height="16">
+
+                                        <!-- Checkbox_BorderRegular (Rectangle) -->
+                                        <div id="u1138" class="ax_default shape6 u1138" data-label="Checkbox_BorderRegular">
+                                          <div id="u1138_div" class="u1138_div"></div>
+                                          <div id="u1138_text" class="text u1138_text" style="display:none; visibility: hidden">
+                                            <p></p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </script>
+                                  <div id="u1128-1" class="preeval" style="width: 570px; height: 40px;">
+
+                                    <!-- Unnamed (Group) -->
+                                    <div id="u1129-1" class="ax_default u1129" style="visibility: inherit" data-left="0" data-top="0" data-width="570" data-height="40">
+
+                                      <!-- Item line (Shape) -->
+                                      <div id="u1130-1" class="ax_default shape6 u1130" data-label="Item line" style="width: 570px; height: 40px; left: 0px; top: 0px;visibility: inherit">
+                                        <img id="u1130-1_img" class="img u1130_img" src="images/학원관리_-_조회_등록_수정/item_line_u881.svg"/>
+                                        <div id="u1130-1_text" class="text u1130_text" style="display:none; visibility: hidden">
+                                          <p></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- 학원연락처 (Rectangle) -->
+                                      <div id="u1131-1" class="ax_default shape6 u1131" data-label="학원연락처" style="width: 100px; height: 20px; left: 455px; top: 10px;visibility: inherit">
+                                        <div id="u1131-1_div" class="u1131_div" style="width: 100px; height: 20px;visibility: inherit"></div>
+                                        <div id="u1131-1_text" class="text u1131_text" style="visibility: inherit">
+                                          <p><span>010-1234-5678</span></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- 지역 (Rectangle) -->
+                                      <div id="u1132-1" class="ax_default shape6 u1132" data-label="지역" style="width: 65px; height: 20px; left: 182px; top: 10px;visibility: inherit">
+                                        <div id="u1132-1_div" class="u1132_div" style="width: 65px; height: 20px;visibility: inherit"></div>
+                                        <div id="u1132-1_text" class="text u1132_text" style="visibility: inherit">
+                                          <p><span>서울</span></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- 학원명 (Rectangle) -->
+                                      <div id="u1133-1" class="ax_default shape6 u1133" data-label="학원명" style="width: 115px; height: 20px; left: 67px; top: 10px;visibility: inherit">
+                                        <div id="u1133-1_div" class="u1133_div" style="width: 115px; height: 20px;visibility: inherit"></div>
+                                        <div id="u1133-1_text" class="text u1133_text" style="visibility: inherit">
+                                          <p><span>**학원</span></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- 주소1 (Rectangle) -->
+                                      <div id="u1134-1" class="ax_default shape6 u1134" data-label="주소1" style="width: 104px; height: 20px; left: 247px; top: 10px;visibility: inherit">
+                                        <div id="u1134-1_div" class="u1134_div" style="width: 104px; height: 20px;visibility: inherit"></div>
+                                        <div id="u1134-1_text" class="text u1134_text" style="visibility: inherit">
+                                          <p><span>서울~장안동</span></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- No. (Rectangle) -->
+                                      <div id="u1135-1" class="ax_default shape6 u1135" data-label="No." style="width: 25px; height: 20px; left: 35px; top: 10px;visibility: inherit">
+                                        <div id="u1135-1_div" class="u1135_div" style="width: 25px; height: 20px;visibility: inherit"></div>
+                                        <div id="u1135-1_text" class="text u1135_text" style="visibility: inherit">
+                                          <p><span>1</span></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- 주소2 (Rectangle) -->
+                                      <div id="u1136-1" class="ax_default shape6 u1136" data-label="주소2" style="width: 90px; height: 20px; left: 365px; top: 10px;visibility: inherit">
+                                        <div id="u1136-1_div" class="u1136_div" style="width: 90px; height: 20px;visibility: inherit"></div>
+                                        <div id="u1136-1_text" class="text u1136_text" style="visibility: inherit">
+                                          <p><span>3</span></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- 03_CONTROLS/CHECKBOX/02_COMPACT/CHECKBOX ONLY/UNSELECTED/Regular (Group) -->
+                                      <div id="u1137-1" class="ax_default u1137" data-label="03_CONTROLS/CHECKBOX/02_COMPACT/CHECKBOX ONLY/UNSELECTED/Regular" style="visibility: inherit" data-left="14" data-top="12" data-width="16" data-height="16">
+
+                                        <!-- Checkbox_BorderRegular (Rectangle) -->
+                                        <div id="u1138-1" class="ax_default shape6 u1138" data-label="Checkbox_BorderRegular" style="width: 16px; height: 16px; left: 14px; top: 12px;visibility: inherit">
+                                          <div id="u1138-1_div" class="u1138_div" style="width: 16px; height: 16px;visibility: inherit"></div>
+                                          <div id="u1138-1_text" class="text u1138_text" style="display:none; visibility: hidden">
+                                            <p></p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div id="u1128-2" class="preeval" style="width: 570px; height: 40px;">
+
+                                    <!-- Unnamed (Group) -->
+                                    <div id="u1129-2" class="ax_default u1129" style="visibility: inherit" data-left="0" data-top="0" data-width="570" data-height="40">
+
+                                      <!-- Item line (Shape) -->
+                                      <div id="u1130-2" class="ax_default shape6 u1130" data-label="Item line" style="width: 570px; height: 40px; left: 0px; top: 0px;visibility: inherit">
+                                        <img id="u1130-2_img" class="img u1130_img" src="images/학원관리_-_조회_등록_수정/item_line_u881.svg"/>
+                                        <div id="u1130-2_text" class="text u1130_text" style="display:none; visibility: hidden">
+                                          <p></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- 학원연락처 (Rectangle) -->
+                                      <div id="u1131-2" class="ax_default shape6 u1131" data-label="학원연락처" style="width: 100px; height: 20px; left: 455px; top: 10px;visibility: inherit">
+                                        <div id="u1131-2_div" class="u1131_div" style="width: 100px; height: 20px;visibility: inherit"></div>
+                                        <div id="u1131-2_text" class="text u1131_text" style="visibility: inherit">
+                                          <p><span>010-1234-5678</span></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- 지역 (Rectangle) -->
+                                      <div id="u1132-2" class="ax_default shape6 u1132" data-label="지역" style="width: 65px; height: 20px; left: 182px; top: 10px;visibility: inherit">
+                                        <div id="u1132-2_div" class="u1132_div" style="width: 65px; height: 20px;visibility: inherit"></div>
+                                        <div id="u1132-2_text" class="text u1132_text" style="visibility: inherit">
+                                          <p><span>서울</span></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- 학원명 (Rectangle) -->
+                                      <div id="u1133-2" class="ax_default shape6 u1133" data-label="학원명" style="width: 115px; height: 20px; left: 67px; top: 10px;visibility: inherit">
+                                        <div id="u1133-2_div" class="u1133_div" style="width: 115px; height: 20px;visibility: inherit"></div>
+                                        <div id="u1133-2_text" class="text u1133_text" style="visibility: inherit">
+                                          <p><span>**학원</span></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- 주소1 (Rectangle) -->
+                                      <div id="u1134-2" class="ax_default shape6 u1134" data-label="주소1" style="width: 104px; height: 20px; left: 247px; top: 10px;visibility: inherit">
+                                        <div id="u1134-2_div" class="u1134_div" style="width: 104px; height: 20px;visibility: inherit"></div>
+                                        <div id="u1134-2_text" class="text u1134_text" style="visibility: inherit">
+                                          <p><span>서울~장안동</span></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- No. (Rectangle) -->
+                                      <div id="u1135-2" class="ax_default shape6 u1135" data-label="No." style="width: 25px; height: 20px; left: 35px; top: 10px;visibility: inherit">
+                                        <div id="u1135-2_div" class="u1135_div" style="width: 25px; height: 20px;visibility: inherit"></div>
+                                        <div id="u1135-2_text" class="text u1135_text" style="visibility: inherit">
+                                          <p><span>2</span></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- 주소2 (Rectangle) -->
+                                      <div id="u1136-2" class="ax_default shape6 u1136" data-label="주소2" style="width: 90px; height: 20px; left: 365px; top: 10px;visibility: inherit">
+                                        <div id="u1136-2_div" class="u1136_div" style="width: 90px; height: 20px;visibility: inherit"></div>
+                                        <div id="u1136-2_text" class="text u1136_text" style="visibility: inherit">
+                                          <p><span>4</span></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- 03_CONTROLS/CHECKBOX/02_COMPACT/CHECKBOX ONLY/UNSELECTED/Regular (Group) -->
+                                      <div id="u1137-2" class="ax_default u1137" data-label="03_CONTROLS/CHECKBOX/02_COMPACT/CHECKBOX ONLY/UNSELECTED/Regular" style="visibility: inherit" data-left="14" data-top="12" data-width="16" data-height="16">
+
+                                        <!-- Checkbox_BorderRegular (Rectangle) -->
+                                        <div id="u1138-2" class="ax_default shape6 u1138" data-label="Checkbox_BorderRegular" style="width: 16px; height: 16px; left: 14px; top: 12px;visibility: inherit">
+                                          <div id="u1138-2_div" class="u1138_div" style="width: 16px; height: 16px;visibility: inherit"></div>
+                                          <div id="u1138-2_text" class="text u1138_text" style="display:none; visibility: hidden">
+                                            <p></p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div id="u1128-3" class="preeval" style="width: 570px; height: 40px;">
+
+                                    <!-- Unnamed (Group) -->
+                                    <div id="u1129-3" class="ax_default u1129" style="visibility: inherit" data-left="0" data-top="0" data-width="570" data-height="40">
+
+                                      <!-- Item line (Shape) -->
+                                      <div id="u1130-3" class="ax_default shape6 u1130" data-label="Item line" style="width: 570px; height: 40px; left: 0px; top: 0px;visibility: inherit">
+                                        <img id="u1130-3_img" class="img u1130_img" src="images/학원관리_-_조회_등록_수정/item_line_u881.svg"/>
+                                        <div id="u1130-3_text" class="text u1130_text" style="display:none; visibility: hidden">
+                                          <p></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- 학원연락처 (Rectangle) -->
+                                      <div id="u1131-3" class="ax_default shape6 u1131" data-label="학원연락처" style="width: 100px; height: 20px; left: 455px; top: 10px;visibility: inherit">
+                                        <div id="u1131-3_div" class="u1131_div" style="width: 100px; height: 20px;visibility: inherit"></div>
+                                        <div id="u1131-3_text" class="text u1131_text" style="visibility: inherit">
+                                          <p><span>010-1234-5678</span></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- 지역 (Rectangle) -->
+                                      <div id="u1132-3" class="ax_default shape6 u1132" data-label="지역" style="width: 65px; height: 20px; left: 182px; top: 10px;visibility: inherit">
+                                        <div id="u1132-3_div" class="u1132_div" style="width: 65px; height: 20px;visibility: inherit"></div>
+                                        <div id="u1132-3_text" class="text u1132_text" style="visibility: inherit">
+                                          <p><span>경기/인천</span></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- 학원명 (Rectangle) -->
+                                      <div id="u1133-3" class="ax_default shape6 u1133" data-label="학원명" style="width: 115px; height: 20px; left: 67px; top: 10px;visibility: inherit">
+                                        <div id="u1133-3_div" class="u1133_div" style="width: 115px; height: 20px;visibility: inherit"></div>
+                                        <div id="u1133-3_text" class="text u1133_text" style="visibility: inherit">
+                                          <p><span>**학원</span></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- 주소1 (Rectangle) -->
+                                      <div id="u1134-3" class="ax_default shape6 u1134" data-label="주소1" style="width: 104px; height: 20px; left: 247px; top: 10px;visibility: inherit">
+                                        <div id="u1134-3_div" class="u1134_div" style="width: 104px; height: 20px;visibility: inherit"></div>
+                                        <div id="u1134-3_text" class="text u1134_text" style="visibility: inherit">
+                                          <p><span>서울~장안동</span></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- No. (Rectangle) -->
+                                      <div id="u1135-3" class="ax_default shape6 u1135" data-label="No." style="width: 25px; height: 20px; left: 35px; top: 10px;visibility: inherit">
+                                        <div id="u1135-3_div" class="u1135_div" style="width: 25px; height: 20px;visibility: inherit"></div>
+                                        <div id="u1135-3_text" class="text u1135_text" style="visibility: inherit">
+                                          <p><span>3</span></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- 주소2 (Rectangle) -->
+                                      <div id="u1136-3" class="ax_default shape6 u1136" data-label="주소2" style="width: 90px; height: 20px; left: 365px; top: 10px;visibility: inherit">
+                                        <div id="u1136-3_div" class="u1136_div" style="width: 90px; height: 20px;visibility: inherit"></div>
+                                        <div id="u1136-3_text" class="text u1136_text" style="visibility: inherit">
+                                          <p><span>6</span></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- 03_CONTROLS/CHECKBOX/02_COMPACT/CHECKBOX ONLY/UNSELECTED/Regular (Group) -->
+                                      <div id="u1137-3" class="ax_default u1137" data-label="03_CONTROLS/CHECKBOX/02_COMPACT/CHECKBOX ONLY/UNSELECTED/Regular" style="visibility: inherit" data-left="14" data-top="12" data-width="16" data-height="16">
+
+                                        <!-- Checkbox_BorderRegular (Rectangle) -->
+                                        <div id="u1138-3" class="ax_default shape6 u1138" data-label="Checkbox_BorderRegular" style="width: 16px; height: 16px; left: 14px; top: 12px;visibility: inherit">
+                                          <div id="u1138-3_div" class="u1138_div" style="width: 16px; height: 16px;visibility: inherit"></div>
+                                          <div id="u1138-3_text" class="text u1138_text" style="display:none; visibility: hidden">
+                                            <p></p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div id="u1128-4" class="preeval" style="width: 570px; height: 40px;">
+
+                                    <!-- Unnamed (Group) -->
+                                    <div id="u1129-4" class="ax_default u1129" style="visibility: inherit" data-left="0" data-top="0" data-width="570" data-height="40">
+
+                                      <!-- Item line (Shape) -->
+                                      <div id="u1130-4" class="ax_default shape6 u1130" data-label="Item line" style="width: 570px; height: 40px; left: 0px; top: 0px;visibility: inherit">
+                                        <img id="u1130-4_img" class="img u1130_img" src="images/학원관리_-_조회_등록_수정/item_line_u881.svg"/>
+                                        <div id="u1130-4_text" class="text u1130_text" style="display:none; visibility: hidden">
+                                          <p></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- 학원연락처 (Rectangle) -->
+                                      <div id="u1131-4" class="ax_default shape6 u1131" data-label="학원연락처" style="width: 100px; height: 20px; left: 455px; top: 10px;visibility: inherit">
+                                        <div id="u1131-4_div" class="u1131_div" style="width: 100px; height: 20px;visibility: inherit"></div>
+                                        <div id="u1131-4_text" class="text u1131_text" style="visibility: inherit">
+                                          <p><span>010-1234-5678</span></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- 지역 (Rectangle) -->
+                                      <div id="u1132-4" class="ax_default shape6 u1132" data-label="지역" style="width: 65px; height: 20px; left: 182px; top: 10px;visibility: inherit">
+                                        <div id="u1132-4_div" class="u1132_div" style="width: 65px; height: 20px;visibility: inherit"></div>
+                                        <div id="u1132-4_text" class="text u1132_text" style="visibility: inherit">
+                                          <p><span>경기/인천</span></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- 학원명 (Rectangle) -->
+                                      <div id="u1133-4" class="ax_default shape6 u1133" data-label="학원명" style="width: 115px; height: 20px; left: 67px; top: 10px;visibility: inherit">
+                                        <div id="u1133-4_div" class="u1133_div" style="width: 115px; height: 20px;visibility: inherit"></div>
+                                        <div id="u1133-4_text" class="text u1133_text" style="visibility: inherit">
+                                          <p><span>**학원</span></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- 주소1 (Rectangle) -->
+                                      <div id="u1134-4" class="ax_default shape6 u1134" data-label="주소1" style="width: 104px; height: 20px; left: 247px; top: 10px;visibility: inherit">
+                                        <div id="u1134-4_div" class="u1134_div" style="width: 104px; height: 20px;visibility: inherit"></div>
+                                        <div id="u1134-4_text" class="text u1134_text" style="visibility: inherit">
+                                          <p><span>서울~장안동</span></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- No. (Rectangle) -->
+                                      <div id="u1135-4" class="ax_default shape6 u1135" data-label="No." style="width: 25px; height: 20px; left: 35px; top: 10px;visibility: inherit">
+                                        <div id="u1135-4_div" class="u1135_div" style="width: 25px; height: 20px;visibility: inherit"></div>
+                                        <div id="u1135-4_text" class="text u1135_text" style="visibility: inherit">
+                                          <p><span>4</span></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- 주소2 (Rectangle) -->
+                                      <div id="u1136-4" class="ax_default shape6 u1136" data-label="주소2" style="width: 90px; height: 20px; left: 365px; top: 10px;visibility: inherit">
+                                        <div id="u1136-4_div" class="u1136_div" style="width: 90px; height: 20px;visibility: inherit"></div>
+                                        <div id="u1136-4_text" class="text u1136_text" style="visibility: inherit">
+                                          <p><span>5</span></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- 03_CONTROLS/CHECKBOX/02_COMPACT/CHECKBOX ONLY/UNSELECTED/Regular (Group) -->
+                                      <div id="u1137-4" class="ax_default u1137" data-label="03_CONTROLS/CHECKBOX/02_COMPACT/CHECKBOX ONLY/UNSELECTED/Regular" style="visibility: inherit" data-left="14" data-top="12" data-width="16" data-height="16">
+
+                                        <!-- Checkbox_BorderRegular (Rectangle) -->
+                                        <div id="u1138-4" class="ax_default shape6 u1138" data-label="Checkbox_BorderRegular" style="width: 16px; height: 16px; left: 14px; top: 12px;visibility: inherit">
+                                          <div id="u1138-4_div" class="u1138_div" style="width: 16px; height: 16px;visibility: inherit"></div>
+                                          <div id="u1138-4_text" class="text u1138_text" style="display:none; visibility: hidden">
+                                            <p></p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div id="u1128-5" class="preeval" style="width: 570px; height: 40px;">
+
+                                    <!-- Unnamed (Group) -->
+                                    <div id="u1129-5" class="ax_default u1129" style="visibility: inherit" data-left="0" data-top="0" data-width="570" data-height="40">
+
+                                      <!-- Item line (Shape) -->
+                                      <div id="u1130-5" class="ax_default shape6 u1130" data-label="Item line" style="width: 570px; height: 40px; left: 0px; top: 0px;visibility: inherit">
+                                        <img id="u1130-5_img" class="img u1130_img" src="images/학원관리_-_조회_등록_수정/item_line_u881.svg"/>
+                                        <div id="u1130-5_text" class="text u1130_text" style="display:none; visibility: hidden">
+                                          <p></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- 학원연락처 (Rectangle) -->
+                                      <div id="u1131-5" class="ax_default shape6 u1131" data-label="학원연락처" style="width: 100px; height: 20px; left: 455px; top: 10px;visibility: inherit">
+                                        <div id="u1131-5_div" class="u1131_div" style="width: 100px; height: 20px;visibility: inherit"></div>
+                                        <div id="u1131-5_text" class="text u1131_text" style="visibility: inherit">
+                                          <p><span>010-1234-5678</span></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- 지역 (Rectangle) -->
+                                      <div id="u1132-5" class="ax_default shape6 u1132" data-label="지역" style="width: 65px; height: 20px; left: 182px; top: 10px;visibility: inherit">
+                                        <div id="u1132-5_div" class="u1132_div" style="width: 65px; height: 20px;visibility: inherit"></div>
+                                        <div id="u1132-5_text" class="text u1132_text" style="visibility: inherit">
+                                          <p><span>강원도</span></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- 학원명 (Rectangle) -->
+                                      <div id="u1133-5" class="ax_default shape6 u1133" data-label="학원명" style="width: 115px; height: 20px; left: 67px; top: 10px;visibility: inherit">
+                                        <div id="u1133-5_div" class="u1133_div" style="width: 115px; height: 20px;visibility: inherit"></div>
+                                        <div id="u1133-5_text" class="text u1133_text" style="visibility: inherit">
+                                          <p><span>***어학원</span></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- 주소1 (Rectangle) -->
+                                      <div id="u1134-5" class="ax_default shape6 u1134" data-label="주소1" style="width: 104px; height: 20px; left: 247px; top: 10px;visibility: inherit">
+                                        <div id="u1134-5_div" class="u1134_div" style="width: 104px; height: 20px;visibility: inherit"></div>
+                                        <div id="u1134-5_text" class="text u1134_text" style="visibility: inherit">
+                                          <p><span>서울~장안동</span></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- No. (Rectangle) -->
+                                      <div id="u1135-5" class="ax_default shape6 u1135" data-label="No." style="width: 25px; height: 20px; left: 35px; top: 10px;visibility: inherit">
+                                        <div id="u1135-5_div" class="u1135_div" style="width: 25px; height: 20px;visibility: inherit"></div>
+                                        <div id="u1135-5_text" class="text u1135_text" style="visibility: inherit">
+                                          <p><span>5</span></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- 주소2 (Rectangle) -->
+                                      <div id="u1136-5" class="ax_default shape6 u1136" data-label="주소2" style="width: 90px; height: 20px; left: 365px; top: 10px;visibility: inherit">
+                                        <div id="u1136-5_div" class="u1136_div" style="width: 90px; height: 20px;visibility: inherit"></div>
+                                        <div id="u1136-5_text" class="text u1136_text" style="visibility: inherit">
+                                          <p><span>4</span></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- 03_CONTROLS/CHECKBOX/02_COMPACT/CHECKBOX ONLY/UNSELECTED/Regular (Group) -->
+                                      <div id="u1137-5" class="ax_default u1137" data-label="03_CONTROLS/CHECKBOX/02_COMPACT/CHECKBOX ONLY/UNSELECTED/Regular" style="visibility: inherit" data-left="14" data-top="12" data-width="16" data-height="16">
+
+                                        <!-- Checkbox_BorderRegular (Rectangle) -->
+                                        <div id="u1138-5" class="ax_default shape6 u1138" data-label="Checkbox_BorderRegular" style="width: 16px; height: 16px; left: 14px; top: 12px;visibility: inherit">
+                                          <div id="u1138-5_div" class="u1138_div" style="width: 16px; height: 16px;visibility: inherit"></div>
+                                          <div id="u1138-5_text" class="text u1138_text" style="display:none; visibility: hidden">
+                                            <p></p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div id="u1128-6" class="preeval" style="width: 570px; height: 40px;">
+
+                                    <!-- Unnamed (Group) -->
+                                    <div id="u1129-6" class="ax_default u1129" style="visibility: inherit" data-left="0" data-top="0" data-width="570" data-height="40">
+
+                                      <!-- Item line (Shape) -->
+                                      <div id="u1130-6" class="ax_default shape6 u1130" data-label="Item line" style="width: 570px; height: 40px; left: 0px; top: 0px;visibility: inherit">
+                                        <img id="u1130-6_img" class="img u1130_img" src="images/학원관리_-_조회_등록_수정/item_line_u881.svg"/>
+                                        <div id="u1130-6_text" class="text u1130_text" style="display:none; visibility: hidden">
+                                          <p></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- 학원연락처 (Rectangle) -->
+                                      <div id="u1131-6" class="ax_default shape6 u1131" data-label="학원연락처" style="width: 100px; height: 20px; left: 455px; top: 10px;visibility: inherit">
+                                        <div id="u1131-6_div" class="u1131_div" style="width: 100px; height: 20px;visibility: inherit"></div>
+                                        <div id="u1131-6_text" class="text u1131_text" style="visibility: inherit">
+                                          <p><span>010-1234-5678</span></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- 지역 (Rectangle) -->
+                                      <div id="u1132-6" class="ax_default shape6 u1132" data-label="지역" style="width: 65px; height: 20px; left: 182px; top: 10px;visibility: inherit">
+                                        <div id="u1132-6_div" class="u1132_div" style="width: 65px; height: 20px;visibility: inherit"></div>
+                                        <div id="u1132-6_text" class="text u1132_text" style="visibility: inherit">
+                                          <p><span>전북</span></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- 학원명 (Rectangle) -->
+                                      <div id="u1133-6" class="ax_default shape6 u1133" data-label="학원명" style="width: 115px; height: 20px; left: 67px; top: 10px;visibility: inherit">
+                                        <div id="u1133-6_div" class="u1133_div" style="width: 115px; height: 20px;visibility: inherit"></div>
+                                        <div id="u1133-6_text" class="text u1133_text" style="visibility: inherit">
+                                          <p><span>***어학원</span></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- 주소1 (Rectangle) -->
+                                      <div id="u1134-6" class="ax_default shape6 u1134" data-label="주소1" style="width: 104px; height: 20px; left: 247px; top: 10px;visibility: inherit">
+                                        <div id="u1134-6_div" class="u1134_div" style="width: 104px; height: 20px;visibility: inherit"></div>
+                                        <div id="u1134-6_text" class="text u1134_text" style="visibility: inherit">
+                                          <p><span>서울~장안동</span></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- No. (Rectangle) -->
+                                      <div id="u1135-6" class="ax_default shape6 u1135" data-label="No." style="width: 25px; height: 20px; left: 35px; top: 10px;visibility: inherit">
+                                        <div id="u1135-6_div" class="u1135_div" style="width: 25px; height: 20px;visibility: inherit"></div>
+                                        <div id="u1135-6_text" class="text u1135_text" style="visibility: inherit">
+                                          <p><span>6</span></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- 주소2 (Rectangle) -->
+                                      <div id="u1136-6" class="ax_default shape6 u1136" data-label="주소2" style="width: 90px; height: 20px; left: 365px; top: 10px;visibility: inherit">
+                                        <div id="u1136-6_div" class="u1136_div" style="width: 90px; height: 20px;visibility: inherit"></div>
+                                        <div id="u1136-6_text" class="text u1136_text" style="visibility: inherit">
+                                          <p><span>3</span></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- 03_CONTROLS/CHECKBOX/02_COMPACT/CHECKBOX ONLY/UNSELECTED/Regular (Group) -->
+                                      <div id="u1137-6" class="ax_default u1137" data-label="03_CONTROLS/CHECKBOX/02_COMPACT/CHECKBOX ONLY/UNSELECTED/Regular" style="visibility: inherit" data-left="14" data-top="12" data-width="16" data-height="16">
+
+                                        <!-- Checkbox_BorderRegular (Rectangle) -->
+                                        <div id="u1138-6" class="ax_default shape6 u1138" data-label="Checkbox_BorderRegular" style="width: 16px; height: 16px; left: 14px; top: 12px;visibility: inherit">
+                                          <div id="u1138-6_div" class="u1138_div" style="width: 16px; height: 16px;visibility: inherit"></div>
+                                          <div id="u1138-6_text" class="text u1138_text" style="display:none; visibility: hidden">
+                                            <p></p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div id="u1128-7" class="preeval" style="width: 570px; height: 40px;">
+
+                                    <!-- Unnamed (Group) -->
+                                    <div id="u1129-7" class="ax_default u1129" style="visibility: inherit" data-left="0" data-top="0" data-width="570" data-height="40">
+
+                                      <!-- Item line (Shape) -->
+                                      <div id="u1130-7" class="ax_default shape6 u1130" data-label="Item line" style="width: 570px; height: 40px; left: 0px; top: 0px;visibility: inherit">
+                                        <img id="u1130-7_img" class="img u1130_img" src="images/학원관리_-_조회_등록_수정/item_line_u881.svg"/>
+                                        <div id="u1130-7_text" class="text u1130_text" style="display:none; visibility: hidden">
+                                          <p></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- 학원연락처 (Rectangle) -->
+                                      <div id="u1131-7" class="ax_default shape6 u1131" data-label="학원연락처" style="width: 100px; height: 20px; left: 455px; top: 10px;visibility: inherit">
+                                        <div id="u1131-7_div" class="u1131_div" style="width: 100px; height: 20px;visibility: inherit"></div>
+                                        <div id="u1131-7_text" class="text u1131_text" style="visibility: inherit">
+                                          <p><span>010-1234-5678</span></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- 지역 (Rectangle) -->
+                                      <div id="u1132-7" class="ax_default shape6 u1132" data-label="지역" style="width: 65px; height: 20px; left: 182px; top: 10px;visibility: inherit">
+                                        <div id="u1132-7_div" class="u1132_div" style="width: 65px; height: 20px;visibility: inherit"></div>
+                                        <div id="u1132-7_text" class="text u1132_text" style="visibility: inherit">
+                                          <p><span>충청</span></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- 학원명 (Rectangle) -->
+                                      <div id="u1133-7" class="ax_default shape6 u1133" data-label="학원명" style="width: 115px; height: 20px; left: 67px; top: 10px;visibility: inherit">
+                                        <div id="u1133-7_div" class="u1133_div" style="width: 115px; height: 20px;visibility: inherit"></div>
+                                        <div id="u1133-7_text" class="text u1133_text" style="visibility: inherit">
+                                          <p><span>***어학원</span></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- 주소1 (Rectangle) -->
+                                      <div id="u1134-7" class="ax_default shape6 u1134" data-label="주소1" style="width: 104px; height: 20px; left: 247px; top: 10px;visibility: inherit">
+                                        <div id="u1134-7_div" class="u1134_div" style="width: 104px; height: 20px;visibility: inherit"></div>
+                                        <div id="u1134-7_text" class="text u1134_text" style="visibility: inherit">
+                                          <p><span>서울~장안동</span></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- No. (Rectangle) -->
+                                      <div id="u1135-7" class="ax_default shape6 u1135" data-label="No." style="width: 25px; height: 20px; left: 35px; top: 10px;visibility: inherit">
+                                        <div id="u1135-7_div" class="u1135_div" style="width: 25px; height: 20px;visibility: inherit"></div>
+                                        <div id="u1135-7_text" class="text u1135_text" style="visibility: inherit">
+                                          <p><span>7</span></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- 주소2 (Rectangle) -->
+                                      <div id="u1136-7" class="ax_default shape6 u1136" data-label="주소2" style="width: 90px; height: 20px; left: 365px; top: 10px;visibility: inherit">
+                                        <div id="u1136-7_div" class="u1136_div" style="width: 90px; height: 20px;visibility: inherit"></div>
+                                        <div id="u1136-7_text" class="text u1136_text" style="visibility: inherit">
+                                          <p><span>6</span></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- 03_CONTROLS/CHECKBOX/02_COMPACT/CHECKBOX ONLY/UNSELECTED/Regular (Group) -->
+                                      <div id="u1137-7" class="ax_default u1137" data-label="03_CONTROLS/CHECKBOX/02_COMPACT/CHECKBOX ONLY/UNSELECTED/Regular" style="visibility: inherit" data-left="14" data-top="12" data-width="16" data-height="16">
+
+                                        <!-- Checkbox_BorderRegular (Rectangle) -->
+                                        <div id="u1138-7" class="ax_default shape6 u1138" data-label="Checkbox_BorderRegular" style="width: 16px; height: 16px; left: 14px; top: 12px;visibility: inherit">
+                                          <div id="u1138-7_div" class="u1138_div" style="width: 16px; height: 16px;visibility: inherit"></div>
+                                          <div id="u1138-7_text" class="text u1138_text" style="display:none; visibility: hidden">
+                                            <p></p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div id="u1128-8" class="preeval" style="width: 570px; height: 40px;">
+
+                                    <!-- Unnamed (Group) -->
+                                    <div id="u1129-8" class="ax_default u1129" style="visibility: inherit" data-left="0" data-top="0" data-width="570" data-height="40">
+
+                                      <!-- Item line (Shape) -->
+                                      <div id="u1130-8" class="ax_default shape6 u1130" data-label="Item line" style="width: 570px; height: 40px; left: 0px; top: 0px;visibility: inherit">
+                                        <img id="u1130-8_img" class="img u1130_img" src="images/학원관리_-_조회_등록_수정/item_line_u881.svg"/>
+                                        <div id="u1130-8_text" class="text u1130_text" style="display:none; visibility: hidden">
+                                          <p></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- 학원연락처 (Rectangle) -->
+                                      <div id="u1131-8" class="ax_default shape6 u1131" data-label="학원연락처" style="width: 100px; height: 20px; left: 455px; top: 10px;visibility: inherit">
+                                        <div id="u1131-8_div" class="u1131_div" style="width: 100px; height: 20px;visibility: inherit"></div>
+                                        <div id="u1131-8_text" class="text u1131_text" style="visibility: inherit">
+                                          <p><span>010-1234-5678</span></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- 지역 (Rectangle) -->
+                                      <div id="u1132-8" class="ax_default shape6 u1132" data-label="지역" style="width: 65px; height: 20px; left: 182px; top: 10px;visibility: inherit">
+                                        <div id="u1132-8_div" class="u1132_div" style="width: 65px; height: 20px;visibility: inherit"></div>
+                                        <div id="u1132-8_text" class="text u1132_text" style="visibility: inherit">
+                                          <p><span>경북</span></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- 학원명 (Rectangle) -->
+                                      <div id="u1133-8" class="ax_default shape6 u1133" data-label="학원명" style="width: 115px; height: 20px; left: 67px; top: 10px;visibility: inherit">
+                                        <div id="u1133-8_div" class="u1133_div" style="width: 115px; height: 20px;visibility: inherit"></div>
+                                        <div id="u1133-8_text" class="text u1133_text" style="visibility: inherit">
+                                          <p><span>***어학원</span></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- 주소1 (Rectangle) -->
+                                      <div id="u1134-8" class="ax_default shape6 u1134" data-label="주소1" style="width: 104px; height: 20px; left: 247px; top: 10px;visibility: inherit">
+                                        <div id="u1134-8_div" class="u1134_div" style="width: 104px; height: 20px;visibility: inherit"></div>
+                                        <div id="u1134-8_text" class="text u1134_text" style="visibility: inherit">
+                                          <p><span>서울~장안동</span></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- No. (Rectangle) -->
+                                      <div id="u1135-8" class="ax_default shape6 u1135" data-label="No." style="width: 25px; height: 20px; left: 35px; top: 10px;visibility: inherit">
+                                        <div id="u1135-8_div" class="u1135_div" style="width: 25px; height: 20px;visibility: inherit"></div>
+                                        <div id="u1135-8_text" class="text u1135_text" style="visibility: inherit">
+                                          <p><span>8</span></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- 주소2 (Rectangle) -->
+                                      <div id="u1136-8" class="ax_default shape6 u1136" data-label="주소2" style="width: 90px; height: 20px; left: 365px; top: 10px;visibility: inherit">
+                                        <div id="u1136-8_div" class="u1136_div" style="width: 90px; height: 20px;visibility: inherit"></div>
+                                        <div id="u1136-8_text" class="text u1136_text" style="visibility: inherit">
+                                          <p><span>7</span></p>
+                                        </div>
+                                      </div>
+
+                                      <!-- 03_CONTROLS/CHECKBOX/02_COMPACT/CHECKBOX ONLY/UNSELECTED/Regular (Group) -->
+                                      <div id="u1137-8" class="ax_default u1137" data-label="03_CONTROLS/CHECKBOX/02_COMPACT/CHECKBOX ONLY/UNSELECTED/Regular" style="visibility: inherit" data-left="14" data-top="12" data-width="16" data-height="16">
+
+                                        <!-- Checkbox_BorderRegular (Rectangle) -->
+                                        <div id="u1138-8" class="ax_default shape6 u1138" data-label="Checkbox_BorderRegular" style="width: 16px; height: 16px; left: 14px; top: 12px;visibility: inherit">
+                                          <div id="u1138-8_div" class="u1138_div" style="width: 16px; height: 16px;visibility: inherit"></div>
+                                          <div id="u1138-8_text" class="text u1138_text" style="display:none; visibility: hidden">
+                                            <p></p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <!-- Column Header (Group) -->
+                                <div id="u1139" class="ax_default" data-label="Column Header" data-left="0" data-top="0" data-width="570" data-height="37">
+
+                                  <!-- Background (Shape) -->
+                                  <div id="u1140" class="ax_default shape6" data-label="Background">
+                                    <img id="u1140_img" class="img " src="images/학원관리_-_조회_등록_수정/background_u893.svg"/>
+                                    <div id="u1140_text" class="text " style="display:none; visibility: hidden">
+                                      <p></p>
+                                    </div>
+                                  </div>
+
+                                  <!-- Column Title (Rectangle) -->
+                                  <div id="u1141" class="ax_default shape6" data-label="Column Title">
+                                    <div id="u1141_div" class=""></div>
+                                    <div id="u1141_text" class="text ">
+                                      <p><span>번호</span></p>
+                                    </div>
+                                  </div>
+
+                                  <!-- Column Title (Rectangle) -->
+                                  <div id="u1142" class="ax_default shape6" data-label="Column Title">
+                                    <div id="u1142_div" class=""></div>
+                                    <div id="u1142_text" class="text ">
+                                      <p><span>지역</span></p>
+                                    </div>
+                                  </div>
+
+                                  <!-- Column Title (Rectangle) -->
+                                  <div id="u1143" class="ax_default shape6" data-label="Column Title">
+                                    <div id="u1143_div" class=""></div>
+                                    <div id="u1143_text" class="text ">
+                                      <p><span>학원명</span></p>
+                                    </div>
+                                  </div>
+
+                                  <!-- Column Title (Rectangle) -->
+                                  <div id="u1144" class="ax_default shape6" data-label="Column Title">
+                                    <div id="u1144_div" class=""></div>
+                                    <div id="u1144_text" class="text ">
+                                      <p><span>주소</span></p>
+                                    </div>
+                                  </div>
+
+                                  <!-- Column Title (Rectangle) -->
+                                  <div id="u1145" class="ax_default shape6" data-label="Column Title">
+                                    <div id="u1145_div" class=""></div>
+                                    <div id="u1145_text" class="text ">
+                                      <p><span>학원 연락처</span></p>
+                                    </div>
+                                  </div>
+
+                                  <!-- 03_CONTROLS/CHECKBOX/02_COMPACT/CHECKBOX ONLY/UNSELECTED/Regular (Group) -->
+                                  <div id="u1146" class="ax_default" data-label="03_CONTROLS/CHECKBOX/02_COMPACT/CHECKBOX ONLY/UNSELECTED/Regular" data-left="14" data-top="8" data-width="16" data-height="16">
+
+                                    <!-- Checkbox_BorderRegular (Rectangle) -->
+                                    <div id="u1147" class="ax_default shape6" data-label="Checkbox_BorderRegular">
+                                      <div id="u1147_div" class=""></div>
+                                      <div id="u1147_text" class="text " style="display:none; visibility: hidden">
+                                        <p></p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u1148" class="ax_default primary_button">
+              <div id="u1148_div" class=""></div>
+              <div id="u1148_text" class="text ">
+                <p><span>저장</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Dynamic Panel) -->
+      <div id="u1149" class="ax_default">
+        <div id="u1149_state0" class="panel_state" data-label="State1" style="">
+          <div id="u1149_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (Table) -->
+            <div id="u1150" class="ax_default">
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u1151" class="ax_default table_cell">
+                <img id="u1151_img" class="img " src="images/학원관리_-_조회_등록_수정/u814.png"/>
+                <div id="u1151_text" class="text ">
+                  <p><span>평가지표관리</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u1152" class="ax_default table_cell">
+                <img id="u1152_img" class="img " src="images/학원관리_-_조회_등록_수정/u814.png"/>
+                <div id="u1152_text" class="text ">
+                  <p><span>마케팅</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u1153" class="ax_default table_cell">
+                <img id="u1153_img" class="img " src="images/학원관리_-_조회_등록_수정/u814.png"/>
+                <div id="u1153_text" class="text ">
+                  <p><span>모바일웹</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u1154" class="ax_default table_cell">
+                <img id="u1154_img" class="img " src="images/학원관리_-_조회_등록_수정/u814.png"/>
+                <div id="u1154_text" class="text ">
+                  <p><span>상품관리</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u1155" class="ax_default table_cell">
+                <img id="u1155_img" class="img " src="images/학원관리_-_조회_등록_수정/u814.png"/>
+                <div id="u1155_text" class="text ">
+                  <p><span>결제관리</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u1156" class="ax_default table_cell">
+                <img id="u1156_img" class="img " src="images/학원관리_-_조회_등록_수정/u814.png"/>
+                <div id="u1156_text" class="text ">
+                  <p><span>메인 관리</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u1157" class="ax_default table_cell">
+                <img id="u1157_img" class="img " src="images/학원관리_-_조회_등록_수정/u814.png"/>
+                <div id="u1157_text" class="text ">
+                  <p><span>정산관리</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u1158" class="ax_default table_cell">
+                <img id="u1158_img" class="img " src="images/학원관리_-_조회_등록_수정/u814.png"/>
+                <div id="u1158_text" class="text ">
+                  <p><span>컨텐츠 관리</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u1159" class="ax_default table_cell">
+                <img id="u1159_img" class="img " src="images/학원관리_-_조회_등록_수정/u814.png"/>
+                <div id="u1159_text" class="text ">
+                  <p><span>대학 정보 관리</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u1160" class="ax_default table_cell">
+                <img id="u1160_img" class="img " src="images/학원관리_-_조회_등록_수정/u814.png"/>
+                <div id="u1160_text" class="text ">
+                  <p><span>온라인컨설팅 관리</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u1161" class="ax_default table_cell">
+                <img id="u1161_img" class="img " src="images/학원관리_-_조회_등록_수정/u814.png"/>
+                <div id="u1161_text" class="text ">
+                  <p><span>유웨이멤버십</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u1162" class="ax_default table_cell">
+                <img id="u1162_img" class="img " src="images/학원관리_-_조회_등록_수정/u814.png"/>
+                <div id="u1162_text" class="text ">
+                  <p><span>입시상담실 관리</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u1163" class="ax_default table_cell">
+                <img id="u1163_img" class="img " src="images/학원관리_-_조회_등록_수정/u814.png"/>
+                <div id="u1163_text" class="text ">
+                  <p><span>입시설명회 및 특강관리</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u1164" class="ax_default table_cell">
+                <img id="u1164_img" class="img " src="images/학원관리_-_조회_등록_수정/u814.png"/>
+                <div id="u1164_text" class="text ">
+                  <p><span>유웨이북스</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u1165" class="ax_default table_cell">
+                <img id="u1165_img" class="img " src="images/학원관리_-_조회_등록_수정/u814.png"/>
+                <div id="u1165_text" class="text ">
+                  <p><span>이미지 파일 관리</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u1166" class="ax_default table_cell">
+                <img id="u1166_img" class="img " src="images/학원관리_-_조회_등록_수정/u814.png"/>
+                <div id="u1166_text" class="text ">
+                  <p><span>경쟁률 ZONE 관리</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u1167" class="ax_default table_cell">
+                <img id="u1167_img" class="img " src="images/학원관리_-_조회_등록_수정/u814.png"/>
+                <div id="u1167_text" class="text ">
+                  <p><span>동영상 관리</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u1168" class="ax_default table_cell">
+                <img id="u1168_img" class="img " src="images/학원관리_-_조회_등록_수정/u814.png"/>
+                <div id="u1168_text" class="text ">
+                  <p><span>배송관리</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u1169" class="ax_default table_cell">
+                <img id="u1169_img" class="img " src="images/학원관리_-_조회_등록_수정/u814.png"/>
+                <div id="u1169_text" class="text ">
+                  <p><span>경험과 나눔</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u1170" class="ax_default table_cell">
+                <img id="u1170_img" class="img " src="images/학원관리_-_조회_등록_수정/u814.png"/>
+                <div id="u1170_text" class="text ">
+                  <p><span>내신</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u1171" class="ax_default table_cell">
+                <img id="u1171_img" class="img " src="images/학원관리_-_조회_등록_수정/u814.png"/>
+                <div id="u1171_text" class="text ">
+                  <p><span>수능/모의고사</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u1172" class="ax_default table_cell">
+                <img id="u1172_img" class="img " src="images/학원관리_-_조회_등록_수정/u814.png"/>
+                <div id="u1172_text" class="text ">
+                  <p><span>회사홈페이지관리</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u1173" class="ax_default table_cell">
+                <img id="u1173_img" class="img " src="images/학원관리_-_조회_등록_수정/u814.png"/>
+                <div id="u1173_text" class="text ">
+                  <p><span>합격진단 API 통계</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u1174" class="ax_default table_cell">
+                <img id="u1174_img" class="img " src="images/학원관리_-_조회_등록_수정/u814.png"/>
+                <div id="u1174_text" class="text ">
+                  <p><span>CMS관리</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u1175" class="ax_default table_cell">
+                <img id="u1175_img" class="img " src="images/학원관리_-_조회_등록_수정/u814.png"/>
+                <div id="u1175_text" class="text ">
+                  <p><span>이만기의 입시브리핑</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u1176" class="ax_default table_cell">
+                <img id="u1176_img" class="img " src="images/학원관리_-_조회_등록_수정/u814.png"/>
+                <div id="u1176_text" class="text ">
+                  <p><span>입시매니저</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u1177" class="ax_default table_cell">
+                <img id="u1177_img" class="img " src="images/학원관리_-_조회_등록_수정/u840.png"/>
+                <div id="u1177_text" class="text ">
+                  <p><span>▒ 상품관리</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u1178" class="ax_default table_cell">
+                <img id="u1178_img" class="img " src="images/학원관리_-_조회_등록_수정/u840.png"/>
+                <div id="u1178_text" class="text ">
+                  <p><span>* 회원검색</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u1179" class="ax_default table_cell">
+                <img id="u1179_img" class="img " src="images/학원관리_-_조회_등록_수정/u840.png"/>
+                <div id="u1179_text" class="text ">
+                  <p><span>* 회원일괄발급</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u1180" class="ax_default table_cell">
+                <img id="u1180_img" class="img " src="images/학원관리_-_조회_등록_수정/u840.png"/>
+                <div id="u1180_text" class="text ">
+                  <p><span>* 무료계정신청자</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u1181" class="ax_default table_cell">
+                <img id="u1181_img" class="img " src="images/학원관리_-_조회_등록_수정/u840.png"/>
+                <div id="u1181_text" class="text ">
+                  <p><span>▒ 계정관리</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u1182" class="ax_default table_cell">
+                <img id="u1182_img" class="img " src="images/학원관리_-_조회_등록_수정/u840.png"/>
+                <div id="u1182_text" class="text ">
+                  <p><span>* 계정발급</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u1183" class="ax_default table_cell">
+                <img id="u1183_img" class="img " src="images/학원관리_-_조회_등록_수정/u840.png"/>
+                <div id="u1183_text" class="text ">
+                  <p><span>* 계정검색</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u1184" class="ax_default table_cell">
+                <img id="u1184_img" class="img " src="images/학원관리_-_조회_등록_수정/u840.png"/>
+                <div id="u1184_text" class="text ">
+                  <p><span>* 구매신청자관리</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u1185" class="ax_default table_cell">
+                <img id="u1185_img" class="img " src="images/학원관리_-_조회_등록_수정/u840.png"/>
+                <div id="u1185_text" class="text ">
+                  <p><span>* 자기소개서 신청서</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u1186" class="ax_default table_cell">
+                <img id="u1186_img" class="img " src="images/학원관리_-_조회_등록_수정/u840.png"/>
+                <div id="u1186_text" class="text ">
+                  <p><span>* 무료계정신청자관리</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u1187" class="ax_default table_cell">
+                <img id="u1187_img" class="img " src="images/학원관리_-_조회_등록_수정/u840.png"/>
+                <div id="u1187_text" class="text ">
+                  <p><span>* 학교/학급 일괄발급</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u1188" class="ax_default table_cell">
+                <img id="u1188_img" class="img " src="images/학원관리_-_조회_등록_수정/u840.png"/>
+                <div id="u1188_text" class="text ">
+                  <p><span>* 학교DB추가</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u1189" class="ax_default table_cell">
+                <img id="u1189_img" class="img " src="images/학원관리_-_조회_등록_수정/u840.png"/>
+                <div id="u1189_text" class="text ">
+                  <p><span>▒ 선생님소개</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u1190" class="ax_default table_cell">
+                <img id="u1190_img" class="img " src="images/학원관리_-_조회_등록_수정/u840.png"/>
+                <div id="u1190_text" class="text ">
+                  <p><span>* 학원관리</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u1191" class="ax_default table_cell">
+                <img id="u1191_img" class="img " src="images/학원관리_-_조회_등록_수정/u840.png"/>
+                <div id="u1191_text" class="text ">
+                  <p><span>* 강사관리</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u1192" class="ax_default table_cell">
+                <img id="u1192_img" class="img " src="images/학원관리_-_조회_등록_수정/u840.png"/>
+                <div id="u1192_text" class="text ">
+                  <p><span>* 사이트관리</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u1193" class="ax_default table_cell">
+                <img id="u1193_img" class="img " src="images/학원관리_-_조회_등록_수정/u840.png"/>
+                <div id="u1193_text" class="text ">
+                  <p><span>▒ 입시일정관리</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u1194" class="ax_default table_cell">
+                <img id="u1194_img" class="img " src="images/학원관리_-_조회_등록_수정/u840.png"/>
+                <div id="u1194_text" class="text ">
+                  <p><span>▒ 학교코드매핑</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u1195" class="ax_default table_cell">
+                <img id="u1195_img" class="img " src="images/학원관리_-_조회_등록_수정/u814.png"/>
+                <div id="u1195_text" class="text ">
+                  <p><span>합불공개</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u1196" class="ax_default table_cell">
+                <img id="u1196_img" class="img " src="images/학원관리_-_조회_등록_수정/u814.png"/>
+                <div id="u1196_text" class="text ">
+                  <p><span>자기소개서</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u1197" class="ax_default table_cell">
+                <img id="u1197_img" class="img " src="images/학원관리_-_조회_등록_수정/u814.png"/>
+                <div id="u1197_text" class="text ">
+                  <p><span>자소서 클라우드</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u1198" class="ax_default table_cell">
+                <img id="u1198_img" class="img " src="images/학원관리_-_조회_등록_수정/u814.png"/>
+                <div id="u1198_text" class="text ">
+                  <p><span>표절검색</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u1199" class="ax_default table_cell">
+                <img id="u1199_img" class="img " src="images/학원관리_-_조회_등록_수정/u814.png"/>
+                <div id="u1199_text" class="text ">
+                  <p><span>적성고사추천</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u1200" class="ax_default table_cell">
+                <img id="u1200_img" class="img " src="images/학원관리_-_조회_등록_수정/u814.png"/>
+                <div id="u1200_text" class="text ">
+                  <p><span>기타</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u1201" class="ax_default table_cell">
+                <img id="u1201_img" class="img " src="images/학원관리_-_조회_등록_수정/u814.png"/>
+                <div id="u1201_text" class="text ">
+                  <p><span>입시다이어리</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u1202" class="ax_default table_cell">
+                <img id="u1202_img" class="img " src="images/학원관리_-_조회_등록_수정/u814.png"/>
+                <div id="u1202_text" class="text ">
+                  <p><span>알림발송 관리자</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u1203" class="ax_default table_cell">
+                <img id="u1203_img" class="img " src="images/학원관리_-_조회_등록_수정/u814.png"/>
+                <div id="u1203_text" class="text ">
+                  <p><span>유포인트 관리자</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u1204" class="ax_default table_cell">
+                <img id="u1204_img" class="img " src="images/학원관리_-_조회_등록_수정/u814.png"/>
+                <div id="u1204_text" class="text ">
+                  <p><span>IDS 통계</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u1205" class="ax_default table_cell">
+                <img id="u1205_img" class="img " src="images/학원관리_-_조회_등록_수정/u814.png"/>
+                <div id="u1205_text" class="text ">
+                  <p><span>오퍼월관리자</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u1206" class="ax_default table_cell">
+                <img id="u1206_img" class="img " src="images/학원관리_-_조회_등록_수정/u814.png"/>
+                <div id="u1206_text" class="text ">
+                  <p><span>파워경쟁률</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u1207" class="ax_default table_cell">
+                <img id="u1207_img" class="img " src="images/학원관리_-_조회_등록_수정/u814.png"/>
+                <div id="u1207_text" class="text ">
+                  <p><span>럭키드로우 관리</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Table Cell) -->
+              <div id="u1208" class="ax_default table_cell">
+                <img id="u1208_img" class="img " src="images/학원관리_-_조회_등록_수정/u871.png"/>
+                <div id="u1208_text" class="text ">
+                  <p><span>관리자 관리</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="resources/scripts/axure/ios.js"></script>
+  </body>
+</html>
