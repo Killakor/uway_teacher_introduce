@@ -235,4 +235,7 @@
 }
 .dialog_bg {
 }
+.paragraph3 {
+  text-align:left;
+}
 textarea, select, input, button { outline: none; }
