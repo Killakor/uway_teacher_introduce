@@ -1,43 +1,4 @@
 ﻿
-#u312 .text.a {
-  align-self:center;
-  padding:2px 2px 2px 2px;
-}
-#u313.a {
-}
-#u313_img.a {
-}
-#u313.a {
-}
-#u313_text.a {
-}
-#u313 .text.a {
-  align-self:center;
-  padding:2px 2px 2px 2px;
-}
-#u315.a {
-  width:202px;
-  height:155px;
-}
-#u315_div.a {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:202px;
-  height:155px;
-  background:inherit;
-  background-color:rgba(255, 255, 255, 1);
-  border:none;
-  border-radius:15px;
-  -moz-box-shadow:none;
-  -webkit-box-shadow:none;
-  box-shadow:none;
-}
-#u315.a {
-  width:202px;
-  height:155px;
-}
 #u315_text.a {
 }
 #u315 .text.a {
@@ -1419,7 +1380,6 @@
   font-family:'Freesentation 7 Bold', 'Freesentation 7', sans-serif;
   font-weight:700;
   font-style:normal;
-  font-size:16px;
   color:#FFFFFF;
   text-align:center;
 }
@@ -1609,7 +1569,6 @@
   font-family:'Freesentation 7 Bold', 'Freesentation 7', sans-serif;
   font-weight:700;
   font-style:normal;
-  font-size:16px;
   color:#FFFFFF;
   text-align:center;
 }
@@ -1781,7 +1740,6 @@
   font-family:'Freesentation 7 Bold', 'Freesentation 7', sans-serif;
   font-weight:700;
   font-style:normal;
-  font-size:16px;
   color:#FFFFFF;
   text-align:center;
 }
@@ -1971,7 +1929,6 @@
   font-family:'Freesentation 7 Bold', 'Freesentation 7', sans-serif;
   font-weight:700;
   font-style:normal;
-  font-size:16px;
   color:#FFFFFF;
   text-align:center;
 }
@@ -2161,7 +2118,6 @@
   font-family:'Freesentation 7 Bold', 'Freesentation 7', sans-serif;
   font-weight:700;
   font-style:normal;
-  font-size:16px;
   color:#FFFFFF;
   text-align:center;
 }
@@ -2351,7 +2307,6 @@
   font-family:'Freesentation 7 Bold', 'Freesentation 7', sans-serif;
   font-weight:700;
   font-style:normal;
-  font-size:16px;
   color:#FFFFFF;
   text-align:center;
 }
@@ -2541,7 +2496,6 @@
   font-family:'Freesentation 7 Bold', 'Freesentation 7', sans-serif;
   font-weight:700;
   font-style:normal;
-  font-size:16px;
   color:#FFFFFF;
   text-align:center;
 }
@@ -2731,7 +2685,6 @@
   font-family:'Freesentation 7 Bold', 'Freesentation 7', sans-serif;
   font-weight:700;
   font-style:normal;
-  font-size:16px;
   color:#FFFFFF;
   text-align:center;
 }
@@ -2921,7 +2874,6 @@
   font-family:'Freesentation 7 Bold', 'Freesentation 7', sans-serif;
   font-weight:700;
   font-style:normal;
-  font-size:16px;
   color:#FFFFFF;
   text-align:center;
 }
@@ -10263,14 +10215,14 @@
   padding:0px 0px 0px 0px;
 }
 #u719.a {
-  left:198px;
-  top:4440px;
+  left:399px;
+  top:4498px;
 }
 #u719_img.a {
 }
 #u719.a {
-  left:198px;
-  top:4440px;
+  left:399px;
+  top:4498px;
 }
 #u719_text.a {
 }
@@ -10279,14 +10231,14 @@
   padding:2px 2px 2px 2px;
 }
 #u720.a {
-  left:216px;
-  top:4440px;
+  left:399px;
+  top:4563px;
 }
 #u720_img.a {
 }
 #u720.a {
-  left:216px;
-  top:4440px;
+  left:399px;
+  top:4563px;
 }
 #u720_text.a {
 }
@@ -10294,51 +10246,19 @@
   align-self:center;
   padding:2px 2px 2px 2px;
 }
-#u722.a {
-  left:399px;
-  top:4498px;
-}
-#u722_img.a {
-}
-#u722.a {
-  left:399px;
-  top:4498px;
-}
-#u722_text.a {
-}
-#u722 .text.a {
-  align-self:center;
-  padding:2px 2px 2px 2px;
-}
-#u723.a {
-  left:399px;
-  top:4563px;
-}
-#u723_img.a {
-}
-#u723.a {
-  left:399px;
-  top:4563px;
-}
-#u723_text.a {
-}
-#u723 .text.a {
-  align-self:center;
-  padding:2px 2px 2px 2px;
-}
-#u724.a {
+#u721.a {
   left:399px;
   top:4628px;
 }
-#u724_img.a {
+#u721_img.a {
 }
-#u724.a {
+#u721.a {
   left:399px;
   top:4628px;
 }
-#u724_text.a {
+#u721_text.a {
 }
-#u724 .text.a {
+#u721 .text.a {
   align-self:center;
   padding:2px 2px 2px 2px;
 }

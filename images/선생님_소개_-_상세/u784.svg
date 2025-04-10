@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="94px" height="89px" xmlns="http://www.w3.org/2000/svg">
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="38px" height="39px" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <mask fill="white" id="clip364">
-      <path d="M 34 0  L 94 54.5  L 64.5 89  L 0.5 36.5  L 34 0  Z " fill-rule="evenodd" />
+    <mask fill="white" id="clip30">
+      <path d="M 0 11.5  L 27.5 38.5  C 27.5 38.5  35.3952637106785 33.2957404012925  36.5 25.5  C 37.9401529520589 15.3373406749386  38.1787836652365 12.6397972775394  29 6  C 20.3490752608835 -0.257951884031527  18.8403441160133 -0.975387130514996  9 2.5  C 3.43422839678416 4.46570473279736  0 11.5  0 11.5  Z " fill-rule="evenodd" />
     </mask>
   </defs>
-  <g transform="matrix(1 0 0 1 -139 -349 )">
-    <path d="M 34 0  L 94 54.5  L 64.5 89  L 0.5 36.5  L 34 0  Z " fill-rule="nonzero" fill="#f4f3f0" stroke="none" transform="matrix(1 0 0 1 139 349 )" />
-    <path d="M 34 0  L 94 54.5  L 64.5 89  L 0.5 36.5  L 34 0  Z " stroke-width="2" stroke="#797979" fill="none" transform="matrix(1 0 0 1 139 349 )" mask="url(#clip364)" />
+  <g transform="matrix(1 0 0 1 -64 -50 )">
+    <path d="M 0 11.5  L 27.5 38.5  C 27.5 38.5  35.3952637106785 33.2957404012925  36.5 25.5  C 37.9401529520589 15.3373406749386  38.1787836652365 12.6397972775394  29 6  C 20.3490752608835 -0.257951884031527  18.8403441160133 -0.975387130514996  9 2.5  C 3.43422839678416 4.46570473279736  0 11.5  0 11.5  Z " fill-rule="nonzero" fill="#f4f3f0" stroke="none" transform="matrix(1 0 0 1 64 50 )" />
+    <path d="M 0 11.5  L 27.5 38.5  C 27.5 38.5  35.3952637106785 33.2957404012925  36.5 25.5  C 37.9401529520589 15.3373406749386  38.1787836652365 12.6397972775394  29 6  C 20.3490752608835 -0.257951884031527  18.8403441160133 -0.975387130514996  9 2.5  C 3.43422839678416 4.46570473279736  0 11.5  0 11.5  Z " stroke-width="2" stroke="#797979" fill="none" transform="matrix(1 0 0 1 64 50 )" mask="url(#clip30)" />
   </g>
 </svg>
